@@ -1,1 +1,65 @@
-.
+
+---
+
+### 2. `.gitignore`
+
+```gitignore
+# Android
+.gradle/
+build/
+*/build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.keystore
+*.jks
+secrets.properties
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Temporary data
+tmp/
+temp/
+
+# Generated geospatial data
+*.pbf
+*.mbtiles
+*.pmtiles
+*.tif
+*.tiff
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
